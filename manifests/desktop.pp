@@ -1,8 +1,10 @@
-class devtools::desktop {
+class devtools::desktop (
+	$desktop = 'ubuntu-desktop'	
+) {
 	package { 'meld':
 		ensure => installed,
 	}
-	package { 'ubuntu-desktop':
+	package { $desktop:
 		ensure => installed,
 	}
 	package { 'firefox':
