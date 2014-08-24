@@ -1,4 +1,4 @@
-name    'rattermeyer/intellij'
+name    'rattermeyer-devtools'
 version '0.1.0'
 source 'UNKNOWN'
 author 'Richard Attermeyer'
